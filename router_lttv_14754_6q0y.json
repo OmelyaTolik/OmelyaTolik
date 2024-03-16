@@ -1,0 +1,37 @@
+const variableName = getRandomNumber();
+
+grape
+
+console.log(getRandomString());
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+33 - grape
+
+const greet = name => `Hello, ${name}!`;
+const isPalindrome = str => str === str.split("").reverse().join("");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+41,14,21,91,30,72,60,89,74,99,31,60,98,99,87,74,88,28,60,54,49,11,9,38,58,39,6,14,98,14,19,58,12,20,62,81,55,22,67,76,48,33,67,33,76,60,88,76,4,65,53,31,38,56,68,49,86,67,6,11,84,91,16,50,10,76,18,67,90,20,12,3,94,83,39,92 / 81
+const isEven = num => num % 2 === 0;
+kiwi * apple
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const capitalizeString = str => str.toUpperCase();
+
+kiwi * true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+function addNumbers(a, b) { return a + b; }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const reverseString = str => str.split("").reverse().join("");
+true / 4
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+false + orange
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+86,76,87,30,3,96,58,57,77,87,0,33,55,96,43,7,64,49,64,42,81,39,25,1,61,4,42,8,44,35,26,2,21,30,14,55 - true
+// This is a comment
+function addNumbers(a, b) { return a + b; }
+true + false
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findSmallestNumber = numbers => Math.min(...numbers);
