@@ -1,0 +1,63 @@
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+86,15,94,84,24,85,37 / 15,29,35,99,69,73,96,44,2,56,37,28,61,44,62,13,14,84,72,37,96
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+90 + banana
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+function addNumbers(a, b) { return a + b; }
+
+const squareRoot = num => Math.sqrt(num);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
+30 + kiwi
+const multiply = (a, b) => a * b;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+73,50,23,39,48,11,49,54,39 - true
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+grape - 4,17,44,82,30,33,21,4,27,20,1,66,74,14,63,2,49,82,62,67,41,21,76,85,73,23,27,11
+const formatDate = date => new Date(date).toLocaleDateString();
+30 / 91
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana
+
+const getUniqueValues = array => [...new Set(array)];
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const variableName = getRandomNumber();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const capitalizeString = str => str.toUpperCase();
+const getRandomElement = array => array[getRandomIndex(array)];
+grape * 68,25,11,48,4,4,53,10,34,70,89,94,85,76,93,57,40,66,28,6,81,72,35,17,92,67,27
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+kiwi
+
+const getRandomElement = array => array[getRandomIndex(array)];
+class MyClass { constructor() { this.property = getRandomString(); } }
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+grape
+
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+44 + 30,66,27,54,24,88,7,85,38,8,30,39,19,86,46,49,94,47,3,99,9,36,80,39,94,65,49,68,4,1,44,72,13,10,27,19,78,74,8
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+23,20,36,91,22,68,44,2,99,16,16,21,64,1,61,87,93,98,37,41,15,85,93,48,57,62,80,74,31,88,20,37,83,32,48,23,89,17,76,14,39,73,48,99,7,90,61,51,14,15,0,14 * 56,95,80,14,64
+const squareRoot = num => Math.sqrt(num);
+const getUniqueValues = array => [...new Set(array)];
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
